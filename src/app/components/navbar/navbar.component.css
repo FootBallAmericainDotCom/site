@@ -1,0 +1,22 @@
+/*Override angular material css*/
+
+:host ::ng-deep .mat-input-placeholder {
+    color: #fff;
+}
+
+:host ::ng-deep .mat-input-placeholder-wrapper {
+	color: #fff;
+}
+
+
+
+
+:host ::ng-deep .mat-form-field-placeholder-wrapper {
+	color: #fff;
+}
+
+
+:host ::ng-deep .mat-primary {
+	color: #fff;
+
+}
