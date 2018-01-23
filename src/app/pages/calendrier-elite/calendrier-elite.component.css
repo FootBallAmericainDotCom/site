@@ -1,0 +1,70 @@
+.boxscorepoz {
+	padding: 0;
+	margin: 5px;
+	border: 1px solid #3e3e3e;
+}
+
+.boxscorepoz .inside {
+	position: relative;
+}
+
+.boxscorepoz .date {
+	padding: 5px;
+	background-color: #333;
+	font-weight: bold;
+	color: white;
+}
+
+.boxscorepoz .home {
+	position: relative;
+	text-align: left;
+	top: 5px;
+	left: 6px;
+	padding: 0;
+	height: 62px;
+}
+
+.boxscorepoz .home .city {
+	position:absolute;
+	top:0;
+	left:52px
+}
+.boxscorepoz .home .franchise {
+	position:absolute;
+	top:26px;
+	left:52px;
+	font-weight:bold
+}
+
+.boxscorepoz .away {
+ width:50%;
+ position:absolute;
+ float:right;
+ right:1%;
+ text-align:right;
+ top:12%;
+ height:62px
+}
+.boxscorepoz .away .logo {
+ float:right;
+ margin-left:5px;
+}
+.boxscorepoz .away .franchise {
+ font-weight:bold;
+ padding-top:7px;
+ margin:0
+}
+
+.boxscorepoz .score {
+	clear: left;
+	text-align: center;
+	background-color: #efefef;
+	border-top: 1px solid #3e3e3e;
+	border-bottom: 1px solid #3e3e3e;
+}
+
+.team {
+	font-weight: bold;
+	text-decoration: underline;
+	text-transform: uppercase;
+}

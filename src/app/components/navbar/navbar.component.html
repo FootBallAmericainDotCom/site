@@ -50,66 +50,93 @@
                 <input class="prompt" placeholder="Search :" type="text">
               </div> -->
               <mat-form-field>
-                <input matInput class="search__field" placeholder="Search :">
-              </mat-form-field>
+              <input matInput class="search__field" placeholder="Search :">
+            </mat-form-field>
 
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="header_bottom">
-            <div class="logo_area"><a href="#" class="logo"><img src="" alt=""></a></div>
-            <div class="add_banner"><a href="#"><img src="" alt=""></a></div>
           </div>
         </div>
       </div>
-    </header>
-    <section id="navArea">
-      <nav class="navbar navbar-inverse" role="navigation">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav main_nav">
-            <li ><a href="#"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
-            <li><a routerLink="/news" routerLinkActive="active">News</a></li>
-            <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nfl</a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="#">Android</a></li>
-                <li><a href="#">Samsung</a></li>
-                <li><a href="#">Nokia</a></li>
-                <li><a href="#">Walton Mobile</a></li>
-                <li><a href="#">Sympony</a></li>
-              </ul>
-            </li>
-            <li><a href="#">France</a></li>
-            <li><a href="#">Football</a></li>
-            <li><a href="#">L'association</a></li>
-            <li><a href="#">Forum</a></li>
-          </ul>
-        </div>
-      </nav>
-    </section>
-    <section id="newsSection">
-      <div class="row">
-        <div class="col-lg-12 col-md-12">
-          <div class="latest_newsarea"> <span>Derniers scores</span>
-            <ul id="ticker01" class="news_sticker">
-              <li><a href="#"><img src="" alt="">DAL 38 - WAS 14 FINAL</a></li>
-              <li><a href="#"><img src="images-content/news_thumbnail3.jpg" alt="">ATL 9 - MIN 14 FINAL</a></li>
-              <li><a href="#"><img src="images-content/news_thumbnail3.jpg" alt="">ATL 4 - MIN 10 FINAL</a></li>
-              <li><a href="#"><img src="images-content/news_thumbnail3.jpg" alt="">TEST</a></li>
 
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <div class="header_bottom">
+          <div class="logo_area"><a href="#" class="logo"><img src="http://footballamericain.com/images/images/association-usfoot-network/logo-assoce200x200.png" width="150" height="150"></a></div>
+          <div><h1 class="center">FOOTBALLAMERICAIN.COM</h1></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section id="navArea">
+    <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav main_nav">
+          <li ><a href="#"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
+          <li><a routerLink="/news" routerLinkActive="active">News</a></li>
+          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nfl</a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Android</a></li>
+              <li><a href="#">Samsung</a></li>
+              <li><a href="#">Nokia</a></li>
+              <li><a href="#">Walton Mobile</a></li>
+              <li><a href="#">Sympony</a></li>
             </ul>
-            <div class="social_area">
-              <ul class="social_nav">
-                <li class="facebook"><a href="#"></a></li>
-                <li class="twitter"><a href="#"></a></li>             
-                <li class="googleplus"><a href="#"></a></li>
-              </ul>
-            </div>
+          </li>
+          <li class="dropdown"><a routerLink="/france" routerLinkActive="active" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">France</a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a routerLink="/france" routerLinkActive="active">Les news France</a></li>
+              <li><a href="france/equipe-de-france">Equipe de France</a></li>
+              <li><a href="france/flag">Flag</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Elite</li>
+              <li><a href="france/calendrier/elite" class="space__left">Calendrier Elite</a></li>
+              <li><a href="france/classement/elite" class="space__left">Classement Elite</a></li>
+              <li role="separator" class="divider"></li>
+              <li class="dropdown-header">Casque d'Or (D2)</li>
+              <li><a href="france/calendrier/division-2" class="space__left">Calendrier Casque d'Or</a></li>
+              <li><a href="france/classement/division-2" class="space__left">Classement Casque d'Or</a></li>
+            </ul>
+          </li>
+          <li><a href="#">NCAA</a></li>
+          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Football</a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Règlement</a></li>
+              <li><a href="#">Joueurs et Positions</a></li>
+              <li><a href="#">Matériel</a></li>
+              <li><a href="#">Initiation au Foot Us</a></li>
+              <li><a href="#">UsFoot School</a></li>
+              <li><a href="#">Citations</a></li>
+              <li><a href="#">Glossaire</a></li>
+              <li><a href="#">Avec un "D" comme "Défense"</a></li>
+            </ul>
+          </li>
+          <li><a href="#">L'association</a></li>
+          <li><a href="#">Forum</a></li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+  <section id="newsSection">
+    <div class="row">
+      <div class="col-lg-12 col-md-12">
+        <div class="latest_newsarea"> <span>Derniers scores</span>
+          <ul id="ticker01" class="news_sticker">
+            <li><a href="#"><img src="" alt="">DAL 38 - WAS 14 FINAL</a></li>
+            <li><a href="#"><img src="images-content/news_thumbnail3.jpg" alt="">ATL 9 - MIN 14 FINAL</a></li>
+            <li><a href="#"><img src="images-content/news_thumbnail3.jpg" alt="">ATL 4 - MIN 10 FINAL</a></li>
+            <li><a href="#"><img src="images-content/news_thumbnail3.jpg" alt="">TEST</a></li>
+
+          </ul>
+          <div class="social_area">
+            <ul class="social_nav">
+              <li class="facebook"><a href="#"></a></li>
+              <li class="twitter"><a href="#"></a></li>             
+              <li class="googleplus"><a href="#"></a></li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
+</div>

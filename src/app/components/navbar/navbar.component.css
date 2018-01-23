@@ -20,3 +20,16 @@
 	color: #fff;
 
 }
+
+/* --- */
+
+.space__left {
+	margin-left: 15px;
+}
+
+.center {
+	line-height: 2;
+	font-size: 70px;
+	margin-left: 20%
+
+}
