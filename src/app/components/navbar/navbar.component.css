@@ -1,6 +1,6 @@
 /*Override angular material css*/
 
-:host ::ng-deep .mat-input-placeholder {
+/*:host ::ng-deep .mat-input-placeholder {
     color: #fff;
 }
 
@@ -23,7 +23,7 @@
 
 /* --- */
 
-.space__left {
+/*.space__left {
 	margin-left: 15px;
 }
 
@@ -32,4 +32,4 @@
 	font-size: 70px;
 	margin-left: 20%
 
-}
+}*/

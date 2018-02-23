@@ -14,6 +14,10 @@ import { CalendrierEliteComponent } from './calendrier-elite/calendrier-elite.co
 import { ClassementEliteComponent } from './classement-elite/classement-elite.component';
 import { CalendrierCasqueOrComponent } from './calendrier-casque-or/calendrier-casque-or.component';
 import { ClassementCasqueOrComponent } from './classement-casque-or/classement-casque-or.component';
+import { NcaaComponent } from './ncaa/ncaa.component';
+import { FranchisesComponent } from './franchises/franchises.component';
+import { TeamDetailOverviewComponent } from './team-detail-overview/team-detail-overview.component';
+import { TeamDetailRosterComponent } from './team-detail-roster/team-detail-roster.component';
 
 @NgModule({
   imports: [
@@ -31,7 +35,11 @@ import { ClassementCasqueOrComponent } from './classement-casque-or/classement-c
   	CalendrierEliteComponent,
   	ClassementEliteComponent,
   	CalendrierCasqueOrComponent,
-  	ClassementCasqueOrComponent
+  	ClassementCasqueOrComponent,
+  	NcaaComponent,
+  	FranchisesComponent,
+  	TeamDetailOverviewComponent,
+  	TeamDetailRosterComponent
   ]
 })
 

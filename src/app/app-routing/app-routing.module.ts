@@ -14,6 +14,10 @@ import { CalendrierEliteComponent } from '../pages/calendrier-elite/calendrier-e
 import { ClassementEliteComponent } from '../pages/classement-elite/classement-elite.component';
 import { CalendrierCasqueOrComponent } from '../pages/calendrier-casque-or/calendrier-casque-or.component';
 import { ClassementCasqueOrComponent } from '../pages/classement-casque-or/classement-casque-or.component';
+import { NcaaComponent } from '../pages/ncaa/ncaa.component';
+import { FranchisesComponent } from '../pages/franchises/franchises.component';
+import { TeamDetailOverviewComponent } from '../pages/team-detail-overview/team-detail-overview.component';
+import { TeamDetailRosterComponent } from '../pages/team-detail-roster/team-detail-roster.component';
 
 const routes: Routes = [
 {
@@ -27,6 +31,18 @@ const routes: Routes = [
 {
 	path: 'france',
 	component: NewsFranceComponent,
+},
+{
+	path: 'nfl/franchises',
+	component: FranchisesComponent,
+},
+{
+	path: 'nfl/:teamName',
+	component: TeamDetailOverviewComponent, 
+},
+{
+	path: 'nfl/:teamName/roster',
+	component: TeamDetailRosterComponent, 
 },
 {
 	path: 'france/equipe-de-france',
@@ -56,6 +72,10 @@ const routes: Routes = [
 	path: 'commentaires/:articleId',
 	component: ArticleCommentsComponent,
 },
+{
+	path: 'ncaa',
+	component: NcaaComponent,
+}
 ];
 
 @NgModule({

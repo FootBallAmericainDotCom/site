@@ -9,6 +9,7 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 import { ComponentsModule } from './components/components.module';
 import { PagesModule } from './pages/pages.module';
+import { ServicesModule } from './services/services.module';
 
 
 import { MaterialModule } from './material/material.module';
@@ -29,6 +30,7 @@ import { MaterialModule } from './material/material.module';
     MaterialModule ,
     ComponentsModule ,
     PagesModule ,
+    ServicesModule ,
   ],
   providers: [],
   bootstrap: [AppComponent]

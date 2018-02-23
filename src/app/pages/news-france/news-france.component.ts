@@ -18,6 +18,10 @@ export class NewsFranceComponent implements OnInit {
 	}
 
 	ngOnInit() {
+		this.initCarousel();
+	}
+
+	initCarousel() {
 		$(".owl-carousel").owlCarousel({
 			nav:false,
 			autoplay:true,

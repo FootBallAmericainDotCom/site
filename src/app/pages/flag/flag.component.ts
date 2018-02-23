@@ -12,7 +12,11 @@ export class FlagComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-  	$(".owl-carousel").owlCarousel({
+  	this.initCarousel();
+  }
+
+  initCarousel() {
+		$(".owl-carousel").owlCarousel({
 			nav:false,
 			autoplay:true,
 			responsive:{
@@ -30,6 +34,6 @@ export class FlagComponent implements OnInit {
 				}
 			}
 		});
-  }
+	}
 
 }

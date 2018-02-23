@@ -1,142 +1,231 @@
-  <!-- Fixed navbar -->
-  <!-- <div class="navbar navbar-default navbar-static-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Logo</a>
+<div class="template-football">
+  <div class="site-wrapper clearfix">
+    <div class="site-overlay"></div>
+
+    <!-- Header -->
+
+    <!-- Header Mobile -->
+    <div class="header-mobile clearfix" id="header-mobile">
+      <div class="header-mobile__logo">
+        <a routerLink="/"><img src="assets/images/football/logo.png" srcset="assets/images/football/logo@2x.png 2x" alt="Alchemists" class="header-mobile__logo-img"></a>
       </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a routerLink="/news" routerLinkActive="active">News</a></li>
-          <li><a href="#about">Nfl</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li class="divider"></li>
-              <li class="dropdown-header">Nav header</li>
-              <li><a href="#">Separated link</a></li>
-              <li><a href="#">One more separated link</a></li>
-            </ul>
-          </li>
-        </ul>
+      <div class="header-mobile__inner">
+        <a id="header-mobile__toggle" class="burger-menu-icon"><span class="burger-menu-icon__line"></span></a>
+        <span class="header-mobile__search-icon" id="header-mobile__search-icon"></span>
       </div>
     </div>
-  </div> -->
 
+    <!-- Header Desktop -->
+    <header class="header">
 
-  <!-- Theme template -->
-  <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
-  <div class="container">
-    <header id="header">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-12">
-          <div class="header_top">
-            <div class="header_top_left">
-              <ul class="top_nav">
-                <li><a href="#">Connexion</a></li>
-                <li><a href="#">Inscription</a></li>
-              </ul>
-            </div>
-            <div class="header_top_right">
-             <!--  <div class="ui search">
-                <input class="prompt" placeholder="Search :" type="text">
-              </div> -->
-              <mat-form-field>
-              <input matInput class="search__field" placeholder="Search :">
-            </mat-form-field>
-
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-12 col-md-12 col-sm-12">
-        <div class="header_bottom">
-          <div class="logo_area"><a href="#" class="logo"><img src="http://footballamericain.com/images/images/association-usfoot-network/logo-assoce200x200.png" width="150" height="150"></a></div>
-          <div><h1 class="center">FOOTBALLAMERICAIN.COM</h1></div>
-        </div>
-      </div>
-    </div>
-  </header>
-  <section id="navArea">
-    <nav class="navbar navbar-inverse" role="navigation">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav main_nav">
-          <li ><a href="#"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
-          <li><a routerLink="/news" routerLinkActive="active">News</a></li>
-          <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Nfl</a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Android</a></li>
-              <li><a href="#">Samsung</a></li>
-              <li><a href="#">Nokia</a></li>
-              <li><a href="#">Walton Mobile</a></li>
-              <li><a href="#">Sympony</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a routerLink="/france" routerLinkActive="active" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">France</a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a routerLink="/france" routerLinkActive="active">Les news France</a></li>
-              <li><a href="france/equipe-de-france">Equipe de France</a></li>
-              <li><a href="france/flag">Flag</a></li>
-              <li role="separator" class="divider"></li>
-              <li class="dropdown-header">Elite</li>
-              <li><a href="france/calendrier/elite" class="space__left">Calendrier Elite</a></li>
-              <li><a href="france/classement/elite" class="space__left">Classement Elite</a></li>
-              <li role="separator" class="divider"></li>
-              <li class="dropdown-header">Casque d'Or (D2)</li>
-              <li><a href="france/calendrier/division-2" class="space__left">Calendrier Casque d'Or</a></li>
-              <li><a href="france/classement/division-2" class="space__left">Classement Casque d'Or</a></li>
-            </ul>
-          </li>
-          <li><a href="#">NCAA</a></li>
-          <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Football</a>
-            <ul class="dropdown-menu" role="menu">
-              <li><a href="#">Règlement</a></li>
-              <li><a href="#">Joueurs et Positions</a></li>
-              <li><a href="#">Matériel</a></li>
-              <li><a href="#">Initiation au Foot Us</a></li>
-              <li><a href="#">UsFoot School</a></li>
-              <li><a href="#">Citations</a></li>
-              <li><a href="#">Glossaire</a></li>
-              <li><a href="#">Avec un "D" comme "Défense"</a></li>
-            </ul>
-          </li>
-          <li><a href="#">L'association</a></li>
-          <li><a href="#">Forum</a></li>
-        </ul>
-      </div>
-    </nav>
-  </section>
-  <section id="newsSection">
-    <div class="row">
-      <div class="col-lg-12 col-md-12">
-        <div class="latest_newsarea"> <span>Derniers scores</span>
-          <ul id="ticker01" class="news_sticker">
-            <li><a href="#"><img src="" alt="">DAL 38 - WAS 14 FINAL</a></li>
-            <li><a href="#"><img src="images-content/news_thumbnail3.jpg" alt="">ATL 9 - MIN 14 FINAL</a></li>
-            <li><a href="#"><img src="images-content/news_thumbnail3.jpg" alt="">ATL 4 - MIN 10 FINAL</a></li>
-            <li><a href="#"><img src="images-content/news_thumbnail3.jpg" alt="">TEST</a></li>
-
+      <!-- Header Top Bar -->
+      <div class="header__top-bar clearfix">
+        <div class="container">
+          <ul class="nav-account">
+            <li class="nav-account__item"><a href="_football_shop-account.html">Inscription</a></li>
+            <li class="nav-account__item nav-account__item--logout"><a href="_football_shop-login.html">Connexion</a></li>
           </ul>
-          <div class="social_area">
-            <ul class="social_nav">
-              <li class="facebook"><a href="#"></a></li>
-              <li class="twitter"><a href="#"></a></li>             
-              <li class="googleplus"><a href="#"></a></li>
-            </ul>
+        </div>
+      </div>
+      <!-- Header Top Bar / End -->
+
+      <!-- Header Secondary -->
+      <div class="header__secondary">
+        <div class="container">
+
+          <ul class="info-block info-block--header">
+            <li class="info-block__item info-block__item--contact-secondary">
+              <svg role="img" class="df-icon df-icon--football-ball">
+                <use xlink:href="assets/images/football/icons-football.svg#football-ball"/>
+              </svg>
+              <h6 class="info-block__heading">Contactez nous</h6>
+              <a class="info-block__link" href="mailto:info@alchemists.com">info@alchemists.com</a>
+            </li>
+          </ul>
+
+          <!-- Banner 420x60 -->
+          <div class="header-banner">
+            <a routerLink="/"><img src="assets/images/football/banner-420x60.jpg" alt=""></a>
+          </div>
+          <!-- Banner 420x60 / End -->
+
+        </div>
+      </div>
+      <!-- Header Secondary / End -->
+
+      <!-- Header Primary -->
+      <div class="header__primary">
+        <div class="container">
+          <div class="header__primary-inner">
+
+            <!-- Header Logo -->
+            <div class="header-logo">
+              <a routerLink="/"><img src="assets/images/football/logo.png" srcset="assets/images/football/logo@2x.png 2x" alt="Alchemists" class="header-logo__img"></a>
+            </div>
+            <!-- Header Logo / End -->
+
+            <!-- Main Navigation -->
+            <nav class="main-nav clearfix">
+              <ul class="main-nav__list">
+                <li>
+                  <a routerLink="/news" routerLinkActive="active">News</a>
+                </li>
+                <li class=""><a href="#">Nfl</a>
+                  <div class="main-nav__megamenu clearfix">
+                    <ul class="col-lg-2 col-md-3 col-xs-12 main-nav__ul">
+                      <li class="main-nav__title">Team</li>
+                      <li><a routerLink="nfl/franchises">Les 32 franchises</a></li>
+                      <li><a href="_football_features-typography.html">Typography</a></li>
+                      <li><a href="_football_features-widgets-blog.html">Widgets - Blog</a></li>
+                      <li><a href="_football_features-widgets-shop.html">Widgets - Shop</a></li>
+                      <li><a href="_football_features-widgets-sports.html">Widgets - Sports</a></li>
+                      <li><a href="_football_features-404.html">404 Error Page</a></li>
+                      <li><a href="_football_features-search-results.html">Search Results</a></li>
+                      <li><a href="_football_page-contacts.html">Contact Us</a></li>
+                    </ul>
+                    <ul class="col-lg-2 col-md-3 col-xs-12 main-nav__ul">
+                      <li class="main-nav__title">Main Features</li>
+                      <li><a href="_football_team-overview.html">Team Overview</a></li>
+                      <li><a href="_football_team-roster.html">Team Roster</a></li>
+                      <li><a href="_football_staff-single.html">Staff Member</a></li>
+                      <li><a href="_football_shop-list.html">Shop Page V1</a></li>
+                      <li><a href="_football_shop-grid.html">Shop Page V2</a></li>
+                      <li><a href="_football_shop-cart.html">Shopping Cart</a></li>
+                      <li><a href="_football_shop-wishlist.html">Wishlist</a></li>
+                      <li><a href="_football_shop-checkout.html">Checkout</a></li>
+                    </ul>
+                    <div class="col-lg-4 col-md-3 col-xs-12">
+                      <ul class="posts posts--simple-list">
+                        <li class="posts__item posts__item--category-1">
+                          <figure class="posts__thumb">
+                            <a href="#"><img src="assets/images/samples/post-img8-xs.jpg" alt=""></a>
+                          </figure>
+                          <div class="posts__inner">
+                            <div class="posts__cat">
+                              <span class="label posts__cat-label">The Team</span>
+                            </div>
+                            <h6 class="posts__title"><a href="#">The perfect breakfast for the team's high intensity</a></h6>
+                            <time datetime="2016-08-21" class="posts__date">August 21st, 2016</time>
+                          </div>
+                        </li>
+                        <li class="posts__item posts__item--category-2">
+                          <figure class="posts__thumb">
+                            <a href="#"><img src="assets/images/football/samples/post-img25-xs.jpg" alt=""></a>
+                          </figure>
+                          <div class="posts__inner">
+                            <div class="posts__cat">
+                              <span class="label posts__cat-label">Injuries</span>
+                            </div>
+                            <h6 class="posts__title"><a href="#">Alchemists coach on Summer's injury "It looks really bad"</a></h6>
+                            <time datetime="2016-08-23" class="posts__date">August 23rd, 2016</time>
+                          </div>
+                        </li>
+                        <li class="posts__item posts__item--category-1">
+                          <figure class="posts__thumb">
+                            <a href="#"><img src="assets/images/football/samples/post-img10-xs.jpg" alt=""></a>
+                          </figure>
+                          <div class="posts__inner">
+                            <div class="posts__cat">
+                              <span class="label posts__cat-label">The Team</span>
+                            </div>
+                            <h6 class="posts__title"><a href="#">The team is gonna a trip to the beach for a samll vacation</a></h6>
+                            <time datetime="2016-08-21" class="posts__date">August 21st, 2016</time>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-3 col-xs-12">
+
+                      <div class="posts posts--tile">
+                        <div class="posts__item posts__item--tile posts__item--category-2 card">
+                          <figure class="posts__thumb">
+                            <img src="assets/images/football/samples/post-img2-tile-sm.jpg" alt="" class="duotone-img" data-gradient-map="#282840, #4c4b73">
+                          </figure>
+                          <a href="#" class="posts__cta"></a>
+                          <div class="posts__inner">
+                            <div class="posts__cat">
+                              <span class="label posts__cat-label">Injuries</span>
+                            </div>
+                            <h6 class="posts__title"><a href="#">Jennifer T. Danvers has a sprained wrist and will be out for eight games</a></h6>
+                            <time datetime="2017-09-14" class="posts__date">September 14th, 2017</time>
+                            <footer class="posts__footer card__footer">
+                              <div class="post-author">
+                                <figure class="post-author__avatar">
+                                  <img src="assets/images/football/samples/avatar-6-xs.jpg" alt="Post Author Avatar">
+                                </figure>
+                                <div class="post-author__info">
+                                  <h4 class="post-author__name">Ginny Valentine</h4>
+                                </div>
+                              </div>
+                              <ul class="post__meta meta">
+                                <li class="meta__item meta__item--views">2369</li>
+                                <li class="meta__item meta__item--likes"><a href="#"><i class="meta-like icon-heart"></i> 530</a></li>
+                                <li class="meta__item meta__item--comments"><a href="#">18</a></li>
+                              </ul>
+                            </footer>
+                          </div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </li>
+                <li class=""><a routerLink="/france" routerLinkActive="active">France</a>
+                  <ul class="main-nav__sub">
+                    <li><a routerLink="france" routerLinkActive="active">Les news France</a></li>
+                    <li><a routerLink="france/equipe-de-france">Equipe de France</a></li>
+                    <li><a routerLink="france/flag">Flag</a></li>
+                    <li><span class="main-nav__sub__whithout__links">Elite</span>
+                      <ul class="main-nav__sub-2">
+                        <li><a routerLink="france/calendrier/elite">Calendrier Elite</a></li>
+                        <li><a routerLink="france/classement/elite">Classement Elite</a></li>
+                      </ul>
+                    </li>
+                    <li><span class="main-nav__sub__whithout__links">Casque d'Or (D2)</span>
+                      <ul class="main-nav__sub-2">
+                        <li><a routerLink="france/calendrier/division-2">Calendrier Casque d'Or</a></li>
+                        <li><a routerLink="france/classement/division-2">Classement Casque d'Or</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li><a routerLink="/ncaa">NCAA</a></li>
+                <li class=""><a href="#">Football</a>
+                  <ul class="main-nav__sub">
+                    <li><a href="#">Règlement</a></li>
+                    <li><a href="#">Joueurs et Positions</a></li>
+                    <li><a href="#">Matériel</a></li>
+                    <li><a href="#">Initiation au Foot Us</a></li>
+                    <li><a href="#">UsFoot School</a></li>
+                    <li><a href="#">Citations</a></li>
+                    <li><a href="#">Glossaire</a></li>
+                    <li><a href="#">Avec un "D" comme "Défense"</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">L'association</a></li>
+              </ul>
+
+              <!-- Header Search Form -->
+              <div class="header-search-form header-search-form--right">
+                <form action="#" id="mobile-search-form" class="search-form">
+                  <input type="text" class="form-control header-mobile__search-control" value="" placeholder="Enter your seach here...">
+                  <button type="submit" class="header-mobile__search-submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+              <!-- Header Search Form / End -->
+
+            </nav>
+            <!-- Main Navigation / End -->
+
           </div>
         </div>
       </div>
-    </div>
-  </section>
+      <!-- Header Primary / End -->
+
+    </header>
+    <!-- Header / End -->
+
+
+
+  </div>
 </div>
